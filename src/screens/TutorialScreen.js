@@ -6,7 +6,7 @@ class TutorialScreen extends React.Component {
     render() {
       return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-          <Text>Details Screen</Text>
+          <Text>Tutorial Screen</Text>
           <Button
             title="Go to Home"
             onPress={() => this.props.navigation.navigate('Home')}

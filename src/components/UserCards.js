@@ -29,13 +29,13 @@ class UserCards extends Component{
             <Text>player-1 - {this.state.result ? this.state.result.equities[0].getEquity() : ''}%</Text>
             <Text>player-2 - {this.state.result ? this.state.result.equities[1].getEquity() : ''}%</Text>
         
-            <TextInput style={{height: 40}} placeholder="Your cards"
+            <TextInput style={{height: 40}} placeholder="Your cards e.g JdJs"
               onChangeText={(p1) => this.setState({p1})}
             />
-            <TextInput style={{height: 40}} placeholder="Second players cards"
+            <TextInput style={{height: 40}} placeholder="Second players cards e.g Ts7h"
               onChangeText={(p2) => this.setState({p2})}
             />
-            <TextInput style={{height: 40}} placeholder="Board Cards"
+            <TextInput style={{height: 40}} placeholder="Board Cards e.g 6d4dQs"
               onChangeText={(board) => this.setState({board})}
             />
             <Text style={{padding: 6, fontSize: 24}}>
