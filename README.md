@@ -1,6 +1,7 @@
 React native app
 
 - npm install -g react-native-cli
+- npm install
 - install Android Studio
 - Add following paths to ~/.bash_profile
     - export ANDROID_HOME=$HOME/Library/Android/sdk
