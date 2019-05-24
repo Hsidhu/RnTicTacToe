@@ -19,4 +19,4 @@ React native app
     react-native run-android
 
 
-Note AVD should be running before running run-android cmd 
+Note: AVD should be running before running run-android cmd 
