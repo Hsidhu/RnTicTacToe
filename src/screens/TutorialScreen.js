@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Button } from "react-native";
 
-class DetailsScreen extends React.Component {
+class TutorialScreen extends React.Component {
     
     render() {
       return (
@@ -20,4 +20,4 @@ class DetailsScreen extends React.Component {
     }
   }
 
-  export default DetailsScreen;
+  export default TutorialScreen;

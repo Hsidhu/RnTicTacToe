@@ -1,15 +1,13 @@
 import React from 'react';
 import { createStackNavigator, createBottomTabNavigator, createAppContainer } from 'react-navigation';
 import HomeScreen from "./src/screens/HomeScreen"
-import DetailsScreen from "./src/screens/DetailsScreen"
+import TutorialScreen from "./src/screens/TutorialScreen"
 import SettingsScreen from "./src/screens/SettingsScreen"
 import PokeroddScreen from "./src/screens/PokeroddScreen"
 
 const HomeStack = createStackNavigator({
   Home: HomeScreen,
-  Details: DetailsScreen,
-});
-const SettingsStack = createStackNavigator({
+  Tutorial: TutorialScreen,
   Settings: SettingsScreen
 });
 const PokerStack = createStackNavigator({
@@ -19,7 +17,6 @@ const PokerStack = createStackNavigator({
 const TabNavigator = createBottomTabNavigator(
   {
     Home: HomeStack,
-    Settings: SettingsStack,
     Poker: PokerStack
   },
   {

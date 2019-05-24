@@ -102,7 +102,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.rnpokerproject"
+        applicationId "com.rntictactoe"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

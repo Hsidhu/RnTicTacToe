@@ -1,4 +1,4 @@
-package com.rnpokerproject;
+package com.rntictactoe;
 
 import android.app.Application;
 

@@ -11,8 +11,12 @@ class HomeScreen extends React.Component {
     return (
       <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
         <Button
-          title="Go to Details"
-          onPress={() => this.props.navigation.navigate('Details')}
+          title="Tutorial"
+          onPress={() => this.props.navigation.navigate('Tutorial')}
+        />
+        <Button
+          title="Settings"
+          onPress={() => this.props.navigation.navigate('Settings')}
         />
       </View>
     );

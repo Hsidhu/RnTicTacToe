@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "RnPokerProject-tvOS.app"
-               BlueprintName = "RnPokerProject-tvOS"
-               ReferencedContainer = "container:RnPokerProject.xcodeproj">
+               BuildableName = "RnTicTacToe-tvOS.app"
+               BlueprintName = "RnTicTacToe-tvOS"
+               ReferencedContainer = "container:RnTicTacToe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "RnPokerProject-tvOSTests.xctest"
-               BlueprintName = "RnPokerProject-tvOSTests"
-               ReferencedContainer = "container:RnPokerProject.xcodeproj">
+               BuildableName = "RnTicTacToe-tvOSTests.xctest"
+               BlueprintName = "RnTicTacToe-tvOSTests"
+               ReferencedContainer = "container:RnTicTacToe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "RnPokerProject-tvOSTests.xctest"
-               BlueprintName = "RnPokerProject-tvOSTests"
-               ReferencedContainer = "container:RnPokerProject.xcodeproj">
+               BuildableName = "RnTicTacToe-tvOSTests.xctest"
+               BlueprintName = "RnTicTacToe-tvOSTests"
+               ReferencedContainer = "container:RnTicTacToe.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RnPokerProject-tvOS.app"
-            BlueprintName = "RnPokerProject-tvOS"
-            ReferencedContainer = "container:RnPokerProject.xcodeproj">
+            BuildableName = "RnTicTacToe-tvOS.app"
+            BlueprintName = "RnTicTacToe-tvOS"
+            ReferencedContainer = "container:RnTicTacToe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RnPokerProject-tvOS.app"
-            BlueprintName = "RnPokerProject-tvOS"
-            ReferencedContainer = "container:RnPokerProject.xcodeproj">
+            BuildableName = "RnTicTacToe-tvOS.app"
+            BlueprintName = "RnTicTacToe-tvOS"
+            ReferencedContainer = "container:RnTicTacToe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RnPokerProject-tvOS.app"
-            BlueprintName = "RnPokerProject-tvOS"
-            ReferencedContainer = "container:RnPokerProject.xcodeproj">
+            BuildableName = "RnTicTacToe-tvOS.app"
+            BlueprintName = "RnTicTacToe-tvOS"
+            ReferencedContainer = "container:RnTicTacToe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
