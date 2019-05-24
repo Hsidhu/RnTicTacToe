@@ -6,13 +6,16 @@ class UserCards extends Component{
     constructor(props) {
         super(props);
         this.state = {
-            p1:'',
-            p2:'',
-            board:'',
+            p1:'JdJs',
+            p2:'Ts7h',
+            board:'6d4dQs',
             result:'',
             text: ''
         };
         this.onPressHandler = this.onPressHandler.bind(this);
+    }
+    componentDidMount(){
+      this.onPressHandler();
     }
 
     onPressHandler = () => {
@@ -30,12 +33,15 @@ class UserCards extends Component{
             <Text>player-2 - {this.state.result ? this.state.result.equities[1].getEquity() : ''}%</Text>
         
             <TextInput style={{height: 40}} placeholder="Your cards e.g JdJs"
+            value={this.state.p1}
               onChangeText={(p1) => this.setState({p1})}
             />
             <TextInput style={{height: 40}} placeholder="Second players cards e.g Ts7h"
+              value={this.state.p2}
               onChangeText={(p2) => this.setState({p2})}
             />
             <TextInput style={{height: 40}} placeholder="Board Cards e.g 6d4dQs"
+              value={this.state.board}
               onChangeText={(board) => this.setState({board})}
             />
             <Text style={{padding: 6, fontSize: 24}}>

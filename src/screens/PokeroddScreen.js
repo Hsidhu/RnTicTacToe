@@ -12,10 +12,6 @@ class PokeroddScreen extends React.Component {
     return (
       <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
         <UserCards/>
-        <Button
-          title="Go to Details"
-          onPress={() => this.props.navigation.navigate('Details')}
-        />
       </View>
     );
   }
