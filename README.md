@@ -3,6 +3,7 @@ React native app
 - npm install -g react-native-cli
 - npm install
 - install Android Studio
+- make sure java is install
 - Add following paths to ~/.bash_profile
     - export ANDROID_HOME=$HOME/Library/Android/sdk
     - export PATH=$PATH:$ANDROID_HOME/emulator
@@ -10,7 +11,7 @@ React native app
     - export PATH=$PATH:$ANDROID_HOME/tools/bin
     - export PATH=$PATH:$ANDROID_HOME/platform-tools
 - Create AVD device in Android Studio
-- Added shortcut to see list of AVD and run AVD device
+- Add shortcut to see list of AVD and run AVD device
     - alias avd-list='cd ~/Android/Sdk/tools/bin && ./avdmanager list avd'
     - alias run-avd='cd ~/Android/Sdk/emulator && ./emulator -avd'
     - avd-list will short you list of AVD devices
