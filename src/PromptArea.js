@@ -36,8 +36,8 @@ export default class Header extends Component {
         {
           result !== GAME_RESULT_NO && (
             <TouchableOpacity onPress={() => onRestart()}>
-              <Text style={styles.instructions}>
-                Touch here to play again
+              <Text style={styles.button}>
+                Play again
               </Text>
             </TouchableOpacity>
           )
@@ -54,10 +54,10 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center'
   },
-  instructions: {
-    marginTop: 20,
-    color: 'grey',
-    marginBottom: 5,
-    textAlign: 'center'
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#DDDDDD',
+    padding: 10,
+    textAlign:"center"
   },
 })
