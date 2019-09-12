@@ -4,6 +4,7 @@ import HomeScreen from "./src/screens/HomeScreen"
 import TutorialScreen from "./src/screens/TutorialScreen"
 import SettingsScreen from "./src/screens/SettingsScreen"
 import PokeroddScreen from "./src/screens/PokeroddScreen"
+import _ from 'lodash';
 
 const HomeStack = createStackNavigator({
   Home: HomeScreen,
